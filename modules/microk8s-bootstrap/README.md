@@ -1,6 +1,6 @@
 # microk8s-bootstrap Terraform Module
 
-This module will be triggered as part of [rpi-microk8s-bootstrap project](../../README.md) and its use-cases are [described as part of project README](../../README.md#how-can-this-terraform-project-help-me).
+This module will be triggered as part of [rpi-microk8s-bootstrap project](../../) and its use-cases are [described as part of project README](../../#how-can-this-terraform-project-help-me).
 
 Based on some of its [input variable values](../../main.tf), [microk8s-bootstrap.tpl](./microk8s_bootstrap.tpl) will be rendered producing "microk8s_bootstrap.py", this and "~/.ssh/id_rsa.pub" file (if present on local system) will be copied to target RPI node after SSH connection has been made by Terraform, followed by running "microk8s_bootstrap.py" on target RPI node.
 
@@ -8,7 +8,7 @@ By design, this module will invalidate state for `null_resource`, and "microk8s_
 
 ## Purpose of [microk8s-bootstrap.tpl](./microk8s_bootstrap.tpl) file
 
-Once rendered as microk8s_bootstrap.py file, main functionality will be to automatically perform manual steps mentioned as part of:
+[Once rendered as microk8s_bootstrap.py file](../../#to-only-create-microk8s_boostrappy-file-from-microk8s-bootstraptpl-run), main functionality will be to automatically perform manual steps mentioned as part of:
 
 * "Step 3: Installing and configuring Ubuntu server on RPI 4’s nodes" and
 * "Step 4: Installing and configuring MicroK8s" 
