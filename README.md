@@ -197,3 +197,27 @@ terraform apply -target=module.microk8s-bootstrap.local_file.save-rendered-boots
 ### Discussion: 
 
 * Blog post: [rpi-microk8s-bootstrap: Automate RPI device conversion into Kubernetes cluster nodes with Terraform](https://foolcontrol.org/?p=4555)
+
+## Donate
+
+If you found this project useful, show your support and appreciation by donating or contributing code. Otherwise, giving credits and acknowledgments also goes a long way.
+
+### Financial donation
+
+If wp-k8s helped you out and you find it useful, show your appreciation by donating (any amount) to the project!
+
+##### Become Github Sponsor
+
+[Become a sponsor to Adnan Hodzic on Github](https://github.com/sponsors/AdnanHodzic) to acknowledge my efforts and help project's further open source development.
+
+##### PayPal
+[![paypal](https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?business=7AHCP5PU95S4Y&no_recurring=0&item_name=Purpose%3A+Contribution+for+work+on+rpi-microk8s-bootstrap&currency_code=EUR)
+
+##### BitCoin
+[bc1qlncmgdjyqy8pe4gad4k2s6xtyr8f2r3ehrnl87](bitcoin:bc1qlncmgdjyqy8pe4gad4k2s6xtyr8f2r3ehrnl87)
+
+[![bitcoin](https://foolcontrol.org/wp-content/uploads/2019/08/btc-donate-displaylink-debian.png)](bitcoin:bc1qlncmgdjyqy8pe4gad4k2s6xtyr8f2r3ehrnl87)
+
+### Code contribution
+
+Other ways of supporting the project consists of making a code or documentation contribution. If you have an idea for a new features or want to implement some of the existing feature requests or fix some of the [bugs & issues](https://github.com/AdnanHodzic/wp-k8s/issues). Please make your changes and submit a [pull request](https://github.com/AdnanHodzic/wp-k8s/pulls) which I'll be glad to review. If your changes are accepted you'll be credited for your contiribution.
