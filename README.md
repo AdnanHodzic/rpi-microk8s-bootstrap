@@ -23,7 +23,7 @@ By setting few variable values and running terraform code as explained in sectio
 
 Result of successful Terraform code run:
 
-<img src="https://storage.googleapis.com/foolcontrol-media/2023/05/rpi-microk8s-bootstrap-terraform-apply.png" width="640" alt="Example rpi-microk8s-bootstrap Terraform project run"/>
+<img src="https://github.com/user-attachments/assets/954a304c-6a48-438a-9c86-1c913f81f9cf" width="640" alt="Example rpi-microk8s-bootstrap Terraform project run"/>
 
 For full list of changes that will be made, please refer to ["microk8s-bootstrap" Terraform module README](./modules/microk8s-bootstrap).
 
